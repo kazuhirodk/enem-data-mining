@@ -1,0 +1,7 @@
+/microdata/microdata-*.csv
+*/results/*.csv
+.clj-kondo
+.idea
+.lsp
+.ipynb_checkpoints
+*/analysis_interest_data/*.csv
