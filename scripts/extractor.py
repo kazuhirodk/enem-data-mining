@@ -1,3 +1,5 @@
+import pandas as pd
+
 def extractor(rules_table):
   organized_rules = pd.DataFrame(columns = ('items_base', 'items_add', 'support', 'confidence', 'lift'))
   count = 0
