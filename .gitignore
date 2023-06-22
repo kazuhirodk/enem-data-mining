@@ -5,3 +5,4 @@
 .lsp
 .ipynb_checkpoints
 */analysis_interest_data/*.csv
+.DS_Store
