@@ -13,3 +13,4 @@ This project seeks to implement some analyzes on ENEM (Exame Nacional do Ensino 
 
 ## Paper
 - The paper can be found in [this](/paper/ARTIGO_IA_KAZUHIRO_KOJIO.pdf) directory (only available in PT-BR)
+- The slide presentation can be found [here](https://docs.google.com/presentation/d/1TvmblaBZJ5MOGtYgt-c1trnQjx-Y6PUC33CNJt247A8/edit?usp=sharing)
