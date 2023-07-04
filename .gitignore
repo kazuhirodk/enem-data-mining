@@ -1,5 +1,6 @@
 /microdata/microdata-*.csv
 */results/*.csv
+*/results/covid-analysis/*.csv
 .clj-kondo
 .idea
 .lsp
