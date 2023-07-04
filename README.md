@@ -9,6 +9,7 @@ This project seeks to implement some analyzes on ENEM (Exame Nacional do Ensino 
 - First we need to download ENEM microdata from [here](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem).
 - Rename the microdata files to `microdata-enem-<year>.csv` (replace `<year>` with correspondent year) and place them in the [microdata](/microdata/) directory
 - Run all the steps in the `general-analysis.ipynb` file to run the main analysis
+- Additional analysis can be found on `covid-analysis.ipynb`
 
 ## Paper
 - The paper can be found in [this](/paper/ARTIGO_IA_KAZUHIRO_KOJIO.pdf) directory (only available in PT-BR)
