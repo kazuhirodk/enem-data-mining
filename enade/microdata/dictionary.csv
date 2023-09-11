@@ -1,353 +1,895 @@
-DICIONÁRIO DE VARIÁVEIS - ENEM 2022;;;;;
-;;;;;
-NOME DA VARIÁVEL;Descrição;Variáveis Categóricas;;Tamanho ;Tipo
-;;Categoria;Descrição;;
-DADOS DO PARTICIPANTE;;;;;
-NU_INSCRICAO;Número de inscrição1 ;;;12;Numérica
-NU_ANO;Ano do Enem;;;4;Numérica
-TP_FAIXA_ETARIA;Faixa etária2;1;Menor de 17 anos;2;Numérica
-;;2;17 anos;;
-;;3;18 anos;;
-;;4;19 anos;;
-;;5;20 anos;;
-;;6;21 anos;;
-;;7;22 anos;;
-;;8;23 anos;;
-;;9;24 anos;;
-;;10;25 anos;;
-;;11;Entre 26 e 30 anos;;
-;;12;Entre 31 e 35 anos;;
-;;13;Entre 36 e 40 anos;;
-;;14;Entre 41 e 45 anos;;
-;;15;Entre 46 e 50 anos;;
-;;16;Entre 51 e 55 anos;;
-;;17;Entre 56 e 60 anos;;
-;;18;Entre 61 e 65 anos;;
-;;19;Entre 66 e 70 anos;;
-;;20;Maior de 70 anos;;
-TP_SEXO;Sexo;M;Masculino;1;Alfanumérica
-;;F;Feminino ;;
-TP_ESTADO_CIVIL;Estado Civil;0;Não informado;1;Numérica
-;;1;Solteiro(a);;
-;;2;Casado(a)/Mora com companheiro(a);;
-;;3;Divorciado(a)/Desquitado(a)/Separado(a);;
-;;4;Viúvo(a);;
-TP_COR_RACA;Cor/raça;0;Não declarado;1;Numérica
-;;1;Branca;;
-;;2;Preta;;
-;;3;Parda;;
-;;4;Amarela;;
-;;5;Indígena ;;
-;;6;Não dispõe da informação;;
-TP_NACIONALIDADE;Nacionalidade;0;Não informado;1;Numérica
-;;1;Brasileiro(a);;
-;;2;Brasileiro(a) Naturalizado(a);;
-;;3;Estrangeiro(a);;
-;;4;Brasileiro(a) Nato(a), nascido(a) no exterior;;
-TP_ST_CONCLUSAO;Situação de conclusão do Ensino Médio;1;Já concluí o Ensino Médio;1;Numérica
-;;2;Estou cursando e concluirei o Ensino Médio em 2022;;
-;;3;Estou cursando e concluirei o Ensino Médio após 2022;;
-;;4;Não concluí e não estou cursando o Ensino Médio;;
-TP_ANO_CONCLUIU;Ano de Conclusão do Ensino Médio;0;Não informado;1;Numérica
-;;1;2021;;
-;;2;2020;;
-;;3;2019;;
-;;4;2018;;
-;;5;2017;;
-;;6;2016;;
-;;7;2015;;
-;;8;2014;;
-;;9;2013;;
-;;10;2012;;
-;;11;2011;;
-;;12;2010;;
-;;13;2009;;
-;;14;2008;;
-;;15;2007;;
-;;16;Antes de 2007;;
-TP_ESCOLA;Tipo de escola do Ensino Médio;1;Não Respondeu;1;Numérica
-;;2;Pública;;
-;;3;Privada;;
-TP_ENSINO;Tipo de instituição que concluiu ou concluirá o Ensino Médio ;1;Ensino Regular;1;Numérica
-;;2;Educação Especial - Modalidade Substitutiva;;
-IN_TREINEIRO;Indica se o inscrito fez a prova com intuito de apenas treinar seus conhecimentos3;1;Sim;1;Numérica
-;;0;Não;;
-DADOS DA ESCOLA;;;;;
-"CO_MUNICIPIO_ESC
-";Código do município da escola ;;;7;Numérica
-;1º dígito: Região;;;;
-;1º e 2º dígitos: UF;;;;
-;3º, 4º, 5º e 6º dígitos: Município;;;;
-;7º dígito: dígito verificador;;;;
-NO_MUNICIPIO_ESC;Nome do município da escola;;;150;Alfanumérica
-CO_UF_ESC;Código da Unidade da Federação da escola;;;2;Numérica
-SG_UF_ESC;Sigla da Unidade da Federação da escola;;;2;Alfanumérica
-TP_DEPENDENCIA_ADM_ESC;Dependência administrativa (Escola);1;Federal;1;Numérica
-;;2;Estadual;;
-;;3;Municipal;;
-;;4;Privada;;
-TP_LOCALIZACAO_ESC;Localização (Escola);1;Urbana;1;Numérica
-;;2;Rural;;
-TP_SIT_FUNC_ESC;Situação de funcionamento (Escola);1;Em atividade;1;Numérica
-;;2;Paralisada;;
-;;3;Extinta;;
-;;4;Escola extinta em anos anteriores.;;
-DADOS DO LOCAL DE APLICAÇÃO DA PROVA;;;;;
-CO_MUNICIPIO_PROVA;Código do município da aplicação da prova;;;7;Numérica
-;1º dígito: Região;;;;
-;1º e 2º dígitos: UF;;;;
-;3º, 4º, 5º e 6º dígitos: Município;;;;
-;7º dígito: dígito verificador;;;;
-NO_MUNICIPIO_PROVA;Nome do município da aplicação da prova;;;150;Alfanumérica
-CO_UF_PROVA;Código da Unidade da Federação da aplicação da prova;;;2;Alfanumérica
-SG_UF_PROVA;Sigla da Unidade da Federação da aplicação da prova;;;2;Alfanumérica
-DADOS DA PROVA OBJETIVA;;;;;
-TP_PRESENCA_CN;Presença na prova objetiva de Ciências da Natureza;0;Faltou à prova;1;Numérica
-;;1;Presente na prova;;
-;;2;Eliminado na prova;;
-TP_PRESENCA_CH;Presença na prova objetiva de Ciências Humanas;0;Faltou à prova;1;Numérica
-;;1;Presente na prova;;
-;;2;Eliminado na prova;;
-TP_PRESENCA_LC;Presença na prova objetiva de Linguagens e Códigos;0;Faltou à prova;1;Numérica
-;;1;Presente na prova;;
-;;2;Eliminado na prova;;
-TP_PRESENCA_MT;Presença na prova objetiva de Matemática;0;Faltou à prova;1;Numérica
-;;1;Presente na prova;;
-;;2;Eliminado na prova;;
-CO_PROVA_CN;Código do tipo de prova de Ciências da Natureza;1085;Azul;4;Numérica
-;;1086;Amarela;;
-;;1087;Cinza;;
-;;1088;Rosa;;
-;;1092;Laranja - Adaptada Ledor;;
-;;1093;Verde - Videoprova - Libras;;
-;;1165;Azul (Reaplicação);;
-;;1166;Amarela (Reaplicação);;
-;;1167;Cinza (Reaplicação);;
-;;1168;Rosa (Reaplicação);;
-;;1187;Azul (Digital);;
-;;1188;Amarela (Digital);;
-;;1189;Rosa (Digital);;
-;;1190;Cinza (Digital);;
-CO_PROVA_CH;Código do tipo de prova de Ciências Humanas;1055;Azul;4;Numérica
-;;1056;Amarela;;
-;;1057;Branca;;
-;;1058;Rosa;;
-;;1062;Laranja - Adaptada Ledor;;
-;;1063;Verde - Videoprova - Libras;;
-;;1135;Azul (Reaplicação);;
-;;1136;Amarela (Reaplicação);;
-;;1137;Branca (Reaplicação);;
-;;1138;Rosa (Reaplicação);;
-;;1175;Azul (Digital);;
-;;1176;Amarela (Digital);;
-;;1177;Branca (Digital);;
-;;1178;Rosa (Digital);;
-CO_PROVA_LC;Código do tipo de prova de Linguagens e Códigos;1065;Azul;4;Numérica
-;;1066;Amarela;;
-;;1067;Rosa;;
-;;1068;Branca;;
-;;1072;Laranja - Adaptada Ledor;;
-;;1073;Verde - Videoprova - Libras;;
-;;1145;Azul (Reaplicação);;
-;;1146;Amarela (Reaplicação);;
-;;1147;Rosa (Reaplicação);;
-;;1148;Branca (Reaplicação);;
-;;1179;Azul (Digital);;
-;;1180;Amarela (Digital);;
-;;1181;Branca (Digital);;
-;;1182;Rosa (Digital);;
-CO_PROVA_MT;Código do tipo de prova de Matemática;1075;Azul;4;Numérica
-;;1076;Amarela;;
-;;1077;Rosa;;
-;;1078;Cinza;;
-;;1082;Laranja - Adaptada Ledor;;
-;;1083;Verde - Videoprova - Libras;;
-;;1155;Azul (Reaplicação);;
-;;1156;Amarela (Reaplicação);;
-;;1157;Rosa (Reaplicação);;
-;;1158;Cinza (Reaplicação);;
-;;1183;Azul (Digital);;
-;;1184;Amarela (Digital);;
-;;1185;Rosa (Digital);;
-;;1186;Cinza (Digital);;
-NU_NOTA_CN;Nota da prova de Ciências da Natureza;;;9;Numérica
-NU_NOTA_CH;Nota da prova de Ciências Humanas;;;9;Numérica
-NU_NOTA_LC;Nota da prova de Linguagens e Códigos;;;9;Numérica
-NU_NOTA_MT;Nota da prova de Matemática;;;9;Numérica
-TX_RESPOSTAS_CN;Vetor com as respostas da parte objetiva da prova de Ciências da Natureza4 ;;A,B,C,D, E, * (dupla marcação), . (em branco);45;Alfanumérica
-TX_RESPOSTAS_CH;Vetor com as respostas da parte objetiva da prova de Ciências Humanas4;;A,B,C,D, E, * (dupla marcação), . (em branco);45;Alfanumérica
-TX_RESPOSTAS_LC;Vetor com as respostas da parte objetiva da prova de Linguagens e Códigos5 ;;A,B,C,D, E, * (dupla marcação), . (em branco), 9 (Item não apresentado);45;Alfanumérica
-TX_RESPOSTAS_MT;Vetor com as respostas da parte objetiva da prova de Matemática4 ;;A,B,C,D, E, * (dupla marcação), . (em branco);45;Alfanumérica
-TP_LINGUA;Língua Estrangeira ;0;Inglês;1;Numérica
-;;1;Espanhol;;
-TX_GABARITO_CN;Vetor com o gabarito da parte objetiva da prova de Ciências da Natureza6 ;;;45;Alfanumérica
-TX_GABARITO_CH;Vetor com o gabarito da parte objetiva da prova de Ciências Humanas6 ;;;45;Alfanumérica
-TX_GABARITO_LC;Vetor com o gabarito da parte objetiva da prova de Linguagens e Códigos7 ;;;50;Alfanumérica
-TX_GABARITO_MT;Vetor com o gabarito da parte objetiva da prova de Matemática6;;;45;Alfanumérica
-DADOS DA REDAÇÃO;;;;;
-TP_STATUS_REDACAO;Situação da redação do participante;1;Sem problemas;1;Numérica
-;;2;Anulada;;
-;;3;Cópia Texto Motivador;;
-;;4;Em Branco;;
-;;6;Fuga ao tema;;
-;;7;Não atendimento ao tipo textual;;
-;;8;Texto insuficiente;;
-;;9;Parte desconectada;;
-NU_NOTA_COMP1;Nota da competência 1 - Demonstrar domínio da modalidade escrita formal da Língua Portuguesa.;;;9;Numérica
-NU_NOTA_COMP2;Nota da competência 2 - Compreender a proposta de redação e aplicar conceitos das várias áreas de conhecimento para desenvolver o tema, dentro dos limites estruturais do texto dissertativo-argumentativo em prosa.;;;9;Numérica
-NU_NOTA_COMP3;Nota da competência 3 - Selecionar, relacionar, organizar e interpretar informações, fatos, opiniões e argumentos em defesa de um ponto de vista.;;;9;Numérica
-NU_NOTA_COMP4;Nota da competência 4 - Demonstrar conhecimento dos mecanismos linguísticos necessários para a construção da argumentação.;;;9;Numérica
-NU_NOTA_COMP5;Nota da competência 5 - Elaborar proposta de intervenção para o problema abordado, respeitando os direitos humanos.;;;9;Numérica
-NU_NOTA_REDACAO;Nota da prova de redação;;;9;Numérica
-DADOS DO QUESTIONÁRIO SOCIOECONÔMICO;;;;;
-Q001;Até que série seu pai, ou o homem responsável por você, estudou?;A;Nunca estudou.;1;Alfanumérica
-;;B;Não completou a 4ª série/5º ano do Ensino Fundamental.;;
-;;C;Completou a 4ª série/5º ano, mas não completou a 8ª série/9º ano do Ensino Fundamental.;;
-;;D;Completou a 8ª série/9º ano do Ensino Fundamental, mas não completou o Ensino Médio.;;
-;;E;Completou o Ensino Médio, mas não completou a Faculdade.;;
-;;F;Completou a Faculdade, mas não completou a Pós-graduação.;;
-;;G;Completou a Pós-graduação.;;
-;;H;Não sei.;;
-Q002;Até que série sua mãe, ou a mulher responsável por você, estudou?;A;Nunca estudou.;1;Alfanumérica
-;;B;Não completou a 4ª série/5º ano do Ensino Fundamental.;;
-;;C;Completou a 4ª série/5º ano, mas não completou a 8ª série/9º ano do Ensino Fundamental.;;
-;;D;Completou a 8ª série/9º ano do Ensino Fundamental, mas não completou o Ensino Médio.;;
-;;E;Completou o Ensino Médio, mas não completou a Faculdade.;;
-;;F;Completou a Faculdade, mas não completou a Pós-graduação.;;
-;;G;Completou a Pós-graduação.;;
-;;H;Não sei.;;
-Q003;A partir da apresentação de algumas ocupações divididas em grupos ordenados, indique o grupo que contempla a ocupação mais próxima da ocupação do seu pai ou do homem responsável por você. (Se ele não estiver trabalhando, escolha uma ocupação pensando no último trabalho dele).;A;Grupo 1: Lavrador, agricultor sem empregados, bóia fria, criador de animais (gado, porcos, galinhas, ovelhas, cavalos etc.), apicultor, pescador, lenhador, seringueiro, extrativista.;1;Alfanumérica
-;;B;Grupo 2: Diarista, empregado doméstico, cuidador de idosos, babá, cozinheiro (em casas particulares), motorista particular, jardineiro, faxineiro de empresas e prédios, vigilante, porteiro, carteiro, office-boy, vendedor, caixa, atendente de loja, auxiliar administrativo, recepcionista, servente de pedreiro, repositor de mercadoria.;;
-;;C;Grupo 3: Padeiro, cozinheiro industrial ou em restaurantes, sapateiro, costureiro, joalheiro, torneiro mecânico, operador de máquinas, soldador, operário de fábrica, trabalhador da mineração, pedreiro, pintor, eletricista, encanador, motorista, caminhoneiro, taxista.;;
-;;D;Grupo 4: Professor (de ensino fundamental ou médio, idioma, música, artes etc.), técnico (de enfermagem, contabilidade, eletrônica etc.), policial, militar de baixa patente (soldado, cabo, sargento), corretor de imóveis, supervisor, gerente, mestre de obras, pastor, microempresário (proprietário de empresa com menos de 10 empregados), pequeno comerciante, pequeno proprietário de terras, trabalhador autônomo ou por conta própria.;;
-;;E;Grupo 5: Médico, engenheiro, dentista, psicólogo, economista, advogado, juiz, promotor, defensor, delegado, tenente, capitão, coronel, professor universitário, diretor em empresas públicas ou privadas, político, proprietário de empresas com mais de 10 empregados.;;
-;;F;Não sei.;;
-Q004;A partir da apresentação de algumas ocupações divididas em grupos ordenados, indique o grupo que contempla a ocupação mais próxima da ocupação da sua mãe ou da mulher responsável por você. (Se ela não estiver trabalhando, escolha uma ocupação pensando no último trabalho dela).;A;Grupo 1: Lavradora, agricultora sem empregados, bóia fria, criadora de animais (gado, porcos, galinhas, ovelhas, cavalos etc.), apicultora, pescadora, lenhadora, seringueira, extrativista.;2;Numérica
-;;B;Grupo 2: Diarista, empregada doméstica, cuidadora de idosos, babá, cozinheira (em casas particulares), motorista particular, jardineira, faxineira de empresas e prédios, vigilante, porteira, carteira, office-boy, vendedora, caixa, atendente de loja, auxiliar administrativa, recepcionista, servente de pedreiro, repositora de mercadoria.;;
-;;C;Grupo 3: Padeira, cozinheira industrial ou em restaurantes, sapateira, costureira, joalheira, torneira mecânica, operadora de máquinas, soldadora, operária de fábrica, trabalhadora da mineração, pedreira, pintora, eletricista, encanadora, motorista, caminhoneira, taxista.;;
-;;D;Grupo 4: Professora (de ensino fundamental ou médio, idioma, música, artes etc.), técnica (de enfermagem, contabilidade, eletrônica etc.), policial, militar de baixa patente (soldado, cabo, sargento), corretora de imóveis, supervisora, gerente, mestre de obras, pastora, microempresária (proprietária de empresa com menos de 10 empregados), pequena comerciante, pequena proprietária de terras, trabalhadora autônoma ou por conta própria.;;
-;;E;Grupo 5: Médica, engenheira, dentista, psicóloga, economista, advogada, juíza, promotora, defensora, delegada, tenente, capitã, coronel, professora universitária, diretora em empresas públicas ou privadas, política, proprietária de empresas com mais de 10 empregados.;;
-;;F;Não sei.;;
-Q005;Incluindo você, quantas pessoas moram atualmente em sua residência?;1;1, pois moro sozinho(a).;2;Numérica
-;;2;2;;
-;;3;3;;
-;;4;4;;
-;;5;5;;
-;;6;6;;
-;;7;7;;
-;;8;8;;
-;;9;9;;
-;;10;10;;
-;;11;11;;
-;;12;12;;
-;;13;13;;
-;;14;14;;
-;;15;15;;
-;;16;16;;
-;;17;17;;
-;;18;18;;
-;;19;19;;
-;;20;20;;
-Q006;Qual é a renda mensal de sua família? (Some a sua renda com a dos seus familiares.);A;Nenhuma Renda;1;Alfanumérica
-;;B;Até R$ 1.212,00;;
-;;C;De R$ 1.212,01 até R$ 1.818,00.;;
-;;D;De R$ 1.818,01 até R$ 2.424,00.;;
-;;E;De R$ 2.424,01 até R$ 3.030,00.;;
-;;F;De R$ 3.030,01 até R$ 3.636,00.;;
-;;G;De R$ 3.636,01 até R$ 4.848,00.;;
-;;H;De R$ 4.848,01 até R$ 6.060,00.;;
-;;I;De R$ 6.060,01 até R$ 7.272,00.;;
-;;J;De R$ 7.272,01 até R$ 8.484,00.;;
-;;K;De R$ 8.484,01 até R$ 9.696,00.;;
-;;L;De R$ 9.696,01 até R$ 10.908,00.;;
-;;M;De R$ 10.908,01 até R$ 12.120,00.;;
-;;N;De R$ 12.120,01 até R$ 14.544,00.;;
-;;O;De R$ 14.544,01 até R$ 18.180,00.;;
-;;P;De R$ 18.180,01 até R$ 24.240,00.;;
-;;Q;Acima de R$ 24.240,00.;;
-Q007;Em sua residência trabalha empregado(a) doméstico(a)?;A;Não.;1;Alfanumérica
-;;B;Sim, um ou dois dias por semana.;;
-;;C;Sim, três ou quatro dias por semana.;;
-;;D;Sim, pelo menos cinco dias por semana.;;
-Q008;Na sua residência tem banheiro?;A;Não.;1;Alfanumérica
-;;B;Sim, um.;;
-;;C;Sim, dois.;;
-;;D;Sim, três.;;
-;;E;Sim, quatro ou mais.;;
-Q009;Na sua residência tem quartos para dormir?;A;Não.;1;Alfanumérica
-;;B;Sim, um.;;
-;;C;Sim, dois.;;
-;;D;Sim, três.;;
-;;E;Sim, quatro ou mais.;;
-Q010;Na sua residência tem carro?;A;Não.;1;Alfanumérica
-;;B;Sim, um.;;
-;;C;Sim, dois.;;
-;;D;Sim, três.;;
-;;E;Sim, quatro ou mais.;;
-Q011;Na sua residência tem motocicleta?;A;Não.;1;Alfanumérica
-;;B;Sim, uma.;;
-;;C;Sim, duas.;;
-;;D;Sim, três.;;
-;;E;Sim, quatro ou mais.;;
-Q012;Na sua residência tem geladeira?;A;Não.;1;Alfanumérica
-;;B;Sim, uma.;;
-;;C;Sim, duas.;;
-;;D;Sim, três.;;
-;;E;Sim, quatro ou mais.;;
-Q013;Na sua residência tem freezer (independente ou segunda porta da geladeira)?;A;Não.;1;Alfanumérica
-;;B;Sim, um.;;
-;;C;Sim, dois.;;
-;;D;Sim, três.;;
-;;E;Sim, quatro ou mais.;;
-Q014;Na sua residência tem máquina de lavar roupa? (o tanquinho NÃO deve ser considerado);A;Não.;1;Alfanumérica
-;;B;Sim, uma.;;
-;;C;Sim, duas.;;
-;;D;Sim, três.;;
-;;E;Sim, quatro ou mais.;;
-Q015;Na sua residência tem máquina de secar roupa (independente ou em conjunto com a máquina de lavar roupa)?;A;Não.;1;Alfanumérica
-;;B;Sim, uma.;;
-;;C;Sim, duas.;;
-;;D;Sim, três.;;
-;;E;Sim, quatro ou mais.;;
-Q016;Na sua residência tem forno micro-ondas?;A;Não.;1;Alfanumérica
-;;B;Sim, um.;;
-;;C;Sim, dois.;;
-;;D;Sim, três.;;
-;;E;Sim, quatro ou mais.;;
-Q017;Na sua residência tem máquina de lavar louça?;A;Não.;1;Alfanumérica
-;;B;Sim, uma.;;
-;;C;Sim, duas.;;
-;;D;Sim, três.;;
-;;E;Sim, quatro ou mais.;;
-Q018;Na sua residência tem aspirador de pó?;A;Não.;1;Alfanumérica
-;;B;Sim.;;
-Q019;Na sua residência tem televisão em cores?;A;Não.;1;Alfanumérica
-;;B;Sim, uma.;;
-;;C;Sim, duas.;;
-;;D;Sim, três.;;
-;;E;Sim, quatro ou mais.;;
-Q020;Na sua residência tem aparelho de DVD?;A;Não.;1;Alfanumérica
-;;B;Sim.;;
-Q021;Na sua residência tem TV por assinatura?;A;Não.;1;Alfanumérica
-;;B;Sim.;;
-Q022;Na sua residência tem telefone celular?;A;Não.;1;Alfanumérica
-;;B;Sim, um.;;
-;;C;Sim, dois.;;
-;;D;Sim, três.;;
-;;E;Sim, quatro ou mais.;;
-Q023;Na sua residência tem telefone fixo?;A;Não.;1;Alfanumérica
-;;B;Sim.;;
-Q024;Na sua residência tem computador?;A;Não.;1;Alfanumérica
-;;B;Sim, um.;;
-;;C;Sim, dois.;;
-;;D;Sim, três.;;
-;;E;Sim, quatro ou mais.;;
-Q025;Na sua residência tem acesso à Internet?;A;Não.;1;Alfanumérica
-;;B;Sim.;;
-1. Referente ao Enem 2022, trata-se de uma máscara e não o seu número de inscrição original no Enem. O mesmo NU_INSCRICAO para anos diferentes não identifica o mesmo participante no exame, não permite o acesso aos dados cadastrais como nome, endereço, RG etc, nem identifica o mesmo participante em microdados de pesquisas diferentes.;;;;;
-2. A partir da Idade do inscrito em 31/12/2022.;;;;;
-3. Foi considerado treineiro o inscrito que não havia concluído o ensino médio e não o concluiria em 2022;;;;;
-4. As 45 primeiras posições deste campo são referentes as respectivas respostas. O asterisco (*) indica dupla marcação e o ponto (.) resposta em branco.;;;;;
-5. As 45 primeiras posições deste campo são referentes as respectivas respostas, das quais as 5 primeiras correspondem a parte de língua estrangeira. O asterisco (*) indica dupla marcação e o ponto (.) resposta em branco.;;;;;
-6. As 45 primeiras posições deste campo são referentes ao respectivo gabarito;;;;;
-7. As 50 primeiras posições deste campo são referentes ao respectivo gabarito, das quais, para as 10 primeiras, as 5 primeiras correspondem à prova de Lingua Inglesa e as outras 5 à prova de Lingua Espanhola.;;;;;
+,,,,,,,,,,,,,,,,,
+DICIONÁRIO DO EXAME NACIONAL DE DESEMPENHO DOS ESTUDANTES  - DADOS ENADE,,,,,,,Inclusão no ano  ,,,,,,,,,,
+ORD,NOME DA VARIÁVEL,DESCRIÇÃO DA VARIÁVEL,TIPO,TAM,DESCRIÇÃO DAS CATEGORIAS,OBSERVAÇÃO,Sim,,,,,,Não,,,,
+,,,,,,,09,10,11,12,13,14,15,16,17,18,19
+PARTE 1 - INFORMAÇÕES DA INSTITUIÇÃO DE ENSINO SUPERIOR E DO CURSO,,,,,,,,,,,,,,,,,
+1,NU_ANO_ENADE,Ano de realização do exame,Num,4,,Variável criada a partir do ano de referência do ENADE,s,s,s,s,s,s,s,s,s,s,s
+2,CO_IES,Código único de identificação da IES,Num,8,Identificação da IES conforme e-MEC,,s,s,s,s,s,s,s,s,s,s,s
+3,NO_IES,Nome da IES,Char,200,Nome da IES conforme e-MEC,,s,s,s,s,s,s,s,s,s,s,s
+4,SG_IES,Sigla da IES,Char,20,Sigla da IES conforme e-MEC,,s,s,s,s,s,s,s,s,s,s,s
+5,CO_MANTENEDORA_IES,Código único de identificação da mantenedora,Num,8,Identificação da IES conforme e-MEC,,s,s,s,s,s,s,s,s,s,s,s
+6,NO_MANTENEDORA_IES,Nome da mantenedora,Char,200,Nome da IES conforme e-MEC,,s,s,s,s,s,s,s,s,s,s,s
+7,TP_CATEGORIA_ADMINISTRATIVA_IES,Tipo da Categoria Administrativa da IES,Num,5,"1. Pública Federal
+2. Pública Estadual
+3. Pública Municipal
+4. Privada com fins lucrativos
+5. Privada sem fins lucrativos
+6. Privada - Particular em sentido estrito
+7. Especial
+8. Privada comunitária
+9. Privada confessional",,s,s,s,s,s,s,s,s,s,s,s
+8,NO_CATEGORIA_ADMINISTRATIVA_IES,Descrição da Categoria Administrativa da IES,Char,120,"Pública Federal
+Pública Estadual
+Pública Municipal
+Privada com fins lucrativos
+Privada sem fins lucrativos
+Privada - Particular em sentido estrito
+Especial
+Privada comunitária
+Privada confessional",,s,s,s,s,s,s,s,s,s,s,s
+9,TP_ORGANIZACAO_ACADEMICA_IES,Tipo da Organização Acadêmica da IES,Num,5,"1. Universidade
+2. Centro Universitário
+3. Faculdade
+4. Instituto Federal de Educação, Ciência e Tecnologia                                
+5. Centro Federal de Educação Tecnológica",,s,s,s,s,s,s,s,s,s,s,s
+10,NO_ORGANIZACAO_ACADEMICA_IES,Descrição da Organização Acadêmica da IES,Char,120,"Universidade
+Centro Universitário
+Faculdade
+Instituto Federal de Educação, Ciência e Tecnologia                                
+Centro Federal de Educação Tecnológica",,s,s,s,s,s,s,s,s,s,s,s
+11,CO_REGIAO_IES,Código do IBGE da Região Geográfica da IES (reitoria / sede administrativa),Num,1,"1 = Norte
+2 = Nordeste
+3 = Sudeste
+4 = Sul
+5 = Centro-Oeste",,s,s,s,s,s,s,s,s,s,s,s
+12,NO_REGIAO_IES,Região do IBGE da unidade da IES (reitoria / sede administrativa).,Char,15,"Norte
+Nordeste
+Sudeste
+Sul
+Centro-Oeste",,s,s,s,s,s,s,s,s,s,s,s
+13,CO_UF_IES,"Código do IBGE da Unidade da Federação da IES
+(reitoria / sede administrativa)",Num,2,"Identificação da Unidade de Federação conforme o IBGE (Ver Aba ""Códigos IBGE-UF"")",,s,s,s,s,s,s,s,s,s,s,s
+14,NO_UF_IES,Nome do Estado a qual pertence a IES,Char,20,"Nome do Estado a qual pertence a IES (Ver Aba ""UF"")",,s,s,s,s,s,s,s,s,s,s,s
+15,SIGLA_UF_IES,Sigla do Estado a qual pertence a IES,Char,2,"Sigla do Estado a qual pertence a IES (Ver Aba ""UF"")",,s,s,s,s,s,s,s,s,s,s,s
+16,CO_MUNICIPIO_IES,Código do IBGE do Municipio da IES (reitoria / sede administrativa),Num,7,"Identificação do Município conforme o IBGE (Ver Aba ""MUNICÍPIOS"")",,s,s,s,s,s,s,s,s,s,s,s
+17,NO_MUNICIPIO_IES,Nome do IBGE do Municipio da IES (reitoria / sede administrativa) ,Char,50,"Identificação do Município conforme o IBGE (Ver Aba ""MUNICÍPIOS"")",,s,s,s,s,s,s,s,s,s,s,s
+18,IN_CAPITAL_IES,Informa se a IES (reitoria / sede administrativa) está localizada na capital de um Estado,Num,1,"0. Não
+1. Sim",,s,s,s,s,s,s,s,s,s,s,s
+19,CO_CATEGAD,Código da categoria administrativa da IES de acordo com o e-MEC,Num,5,"Ver Aba ""CATEAG""",,s,s,s,s,s,s,s,s,s,s,s
+20,NO_CATEGAD,Descrição da Categoria Administrativa da IES de acordo com e-MEC,Char,100,"Ver Aba ""CATEAG""",,s,s,s,s,s,s,s,s,s,s,s
+21,CO_ORGACAD,Código da organização acadêmica da IES de acordo com o e-MEC,Num,5,"Ver Aba ""ORGACAD""",,s,s,s,s,s,s,s,s,s,s,s
+22,NO_ORGACAD,Descrição da Organização Acadêmica da IES de acordo com o e-MEC,Char,100,"Ver Aba ""ORGACAD""",,s,s,s,s,s,s,s,s,s,s,s
+DADOS DO CURSO,,,,,,,,,,,,,,,,,
+23,CO_GRUPO,Código da Área de enquadramento do curso no Enade,Num,8,Ver GRUPO,Os códigos foram gerados com as ocorrências do período considerado,s,s,s,s,s,s,s,s,s,s,s
+24,NO_GRUPO,Descrição da Área de enquadramento do curso no Enade,Char,120,Ver GRUPO,As descrições foram gerados com as ocorrências do período considerado,s,s,s,s,s,s,s,s,s,s,s
+25,CO_CURSO,Código único de identificação do curso,Num,8,,,s,s,s,s,s,s,s,s,s,s,s
+26,NO_CURSO,Nome do curso,Char,200,,SI - SEM INFORMAÇÃO,s,s,s,s,s,s,s,s,s,s,s
+27,CO_LOCAL_OFERTA,Código do local de oferta,Num,8,,,s,s,s,s,s,s,s,s,s,s,s
+28,NO_LOCAL_OFERTA,Nome do local de oferta,Char,250,,SI - SEM INFORMAÇÃO,s,s,s,s,s,s,s,s,s,s,s
+29,CO_CINE_ROTULO,"Código de identificação do curso, conforme adaptação da Classificação Internacional Normalizada da Educação Cine/Unesco",Char,7,,,s,s,s,s,s,s,s,s,s,s,s
+30,TP_GRAU_ACADEMICO,Tipo do grau acadêmico conferido ao aluno pela conclusão dos requisitos exigidos pelo curso,Num,1,"1. Bacharelado
+2. Licenciatura
+3. Tecnológico
+4. Bacharelado e Licenciatura
+5. Não aplicável
+SI",SI - SEM INFORMAÇÃO,s,s,s,s,s,s,s,s,s,s,s
+31,NO_GRAU_ACADEMICO,Descrição do grau acadêmico conferido ao aluno pela conclusão dos requisitos exigidos pelo curso,Char,30,"Bacharelado
+Licenciatura
+Tecnológico
+Bacharelado e Licenciatura
+NÃO APLICÁVEL
+SEM INFORMAÇÃO",,s,s,s,s,s,s,s,s,s,s,s
+32,TP_MODALIDADE ,Tipo da modalidade de ensino do curso,Num,1,"0. EaD
+1. Presencial
+9 - INEXISTENTE",,n,s,s,s,s,s,s,s,s,s,s
+33,NO_MODALIDADE ,Descrição da modalidade de ensino do curso,Char,20,"EaD
+Presencial
+INEXISTENTE",,n,s,s,s,s,s,s,s,s,s,s
+34,TP_NIVEL_ACADEMICO,Tipo do nível acadêmico do curso,Num,1,"1. Graduação
+2. Seqüencial de Formação Específica",,s,s,s,s,s,s,s,s,s,s,s
+35,NO_NIVEL_ACADEMICO,Descrição do nível acadêmico do curso,Char,50,"Graduação
+Seqüencial de Formação Específica",,s,s,s,s,s,s,s,s,s,s,s
+36,IN_GRATUITO,Informa se o curso é gratuito,Num,1,"0. Não
+1. Sim
+9. INEXISTENTE ",,n,s,s,s,s,s,s,s,s,s,s
+37,NU_CARGA_HORARIA,Carga horária mínima do curso,Num,8,,,s,s,s,s,s,s,s,s,s,s,s
+38,CO_REGIAO_CURSO ,Código da região do IBGE de funcionamento do curso,Char,1,"Identificação da Unidade de Federação conforme o IBGE (Ver Aba ""UF"")",,s,s,s,s,s,s,s,s,s,s,s
+39,NO_REGIAO_CURSO ,Nome da região do IBGE de funcionamento do curso,Char,30,"Identificação da Unidade de Federação conforme o IBGE (Ver Aba ""UF"")",,s,s,s,s,s,s,s,s,s,s,s
+40,CO_UF_CURSO ,Codigo do IBGE da unidade da federação de funcionamento do curso,Num,2,"Identificação da Unidade de Federação conforme o IBGE (Ver Aba ""UF"")",,s,s,s,s,s,s,s,s,s,s,s
+41,NO_UF_CURSO ,Nome do IBGE da unidade da federação do local de oferta do curso ,Char,30,"Identificação da Unidade de Federação conforme o IBGE (Ver Aba ""UF"")",,s,s,s,s,s,s,s,s,s,s,s
+42,SIGLA_UF_ CURSO ,Sigla do IBGE da unidade da federação do local de oferta do curso ,Char,2,"Identificação da Unidade de Federação conforme o IBGE (Ver Aba ""UF"")",,s,s,s,s,s,s,s,s,s,s,s
+43,CO_MUNIC_CURSO ,Código do IBGE do municipio de funcionamento do curso,Num,7,"Identificação do Município conforme o IBGE (Ver Aba ""MUNICÍPIOS"")",,s,s,s,s,s,s,s,s,s,s,s
+44,NO_MUNIC_CURSO ,Nome do IBGE do município do local de oferta do curso,Char,30,"Identificação do Município conforme o IBGE (Ver Aba ""MUNICÍPIOS"")",,s,s,s,s,s,s,s,s,s,s,s
+45,IN_CAPITAL_CURSO,Informa se o local de oferta do curso presencial está localizado em capital de Estado,Num,1,"0. Não
+1. Sim
+2. Não aplicável (Curso a distância)",,s,s,s,s,s,s,s,s,s,s,s
+PARTE 2 - INFORMAÇÕES DO ESTUDANTE,,,,,,,,,,,,,,,,,
+46,NU_IDADE ,Idade que o aluno completa no ano de referência do ENADE.,Num,3,,,s,s,s,s,s,s,s,s,s,s,s
+47,FAIXA_ETARIA,,Num,2,"1 - até 17
+2 - 18 - 21
+3 - 22 - 25
+4 - 26 - 29
+5 - 30 - 33
+6 - 34 - 37
+7 - 38 - 41
+8 - 42 - 45
+9 - 46 - 49
+10 - 50 - 53
+11 - 54 - 57
+12 - 58 – 61
+13 – 62 – 65
+14 – maior do que 65",,s,s,s,s,s,s,s,s,s,s,s
+48,TP_SEXO ,Informa o sexo do aluno,Num,1,"F - Feminino
+M - Masculino
+N - Não Informado",,s,s,s,s,s,s,s,s,s,s,s
+49,ANO_IN_GRAD,Ano de início da graduação,Num,4,,"Nas situações em que o ano de início da graduação é menor que 1990 e maior que o ano de realização do ENADE (NU_ANO_ENADE), o dado foi transformado em NULO",s,s,s,s,s,s,s,s,s,s,s
+PARTE 5 - TIPOS DE PRESENÇA,,,,,,,,,,,,,,,,,
+50,TP_PRES,Tipo de presença no Enade,Num,4,"000 = Aluno fora do cadastro e implantado sem liminar
+111 = Aluno não selecionado
+222 = Ausente
+333 = Inscrição indevida
+334 = Eliminado por participação indevida
+444 = Ausente devido a dupla graduação
+555 = Presente com resultado válido
+556 = Presente com resultado desconsiderado pela Aplicadora
+887 = Política de Transferência Assistida (Portaria MEC nº 24/2016)
+888 = Presente com resultado desconsiderado pelo Inep
+999 = Presente por Ação judicial
+NULO = Não se aplica (sem ensalamento)",,s,s,s,s,s,s,s,s,s,s,s
+51,NO_PRES,Descrição do Tipo de presença no Enade,Num,4,"Aluno fora do cadastro e implantado sem liminar
+Aluno não selecionado
+Ausente
+Inscrição indevida
+Eliminado por participação indevida
+Ausente devido a dupla graduação
+Presente com resultado válido
+Presente com resultado desconsiderado pela Aplicadora
+Política de Transferência Assistida (Portaria MEC nº 24/2016)
+Presente com resultado desconsiderado pelo Inep
+Presente por Ação judicial
+NULO = Não se aplica (sem ensalamento)",,s,s,s,s,s,s,s,s,s,s,s
+PARTE 7 - NOTAS NA FORMAÇÃO GERAL E COMPONENTE ESPECÍFICO,,,,,,,,,,,,,,,,,
+52,NT_GER ,Nota bruta da prova - Média ponderada da formação geral (25%) e componente específico (75%).  (valor de 0 a 100).,Decimal,3.10,,,s,s,s,s,s,s,s,s,s,s,s
+53,NT_FG ,Nota bruta na formação geral - Média ponderada da parte objetiva (60%) e discursiva (40%) na formação geral. (valor de 0 a 100).,Decimal,6.2,,,s,s,s,s,s,s,s,s,s,s,s
+54,NT_OBJ_FG ,Nota bruta na parte objetiva da formação geral. (valor de 0 a 100).,Decimal,6.2,,,s,s,s,s,s,s,s,s,s,s,s
+55,NT_DIS_FG ,Nota bruta na parte discursiva da formação geral. (valor de 0 a 100).,Decimal,6.2,,,s,s,s,s,s,s,s,s,s,s,s
+56,NT_FG_D1 ,Nota da questão 1 da parte discursiva da formação geral - Média ponderada da parte de Língua Portuguesa (20%) e Conteúdo (80%) da Questão 1 da parte discursiva. (valor de 0 a 100).,Decimal,6.2,,,s,s,s,s,s,s,s,s,s,s,s
+57,NT_FG_D1_PT ,Nota de Língua Portuguesa da questão 1 da parte discursiva da formação geral. (valor de 0 a 100).,Decimal,6.2,,,n,n,n,n,s,s,s,s,s,s,s
+58,NT_FG_D1_CT ,Nota de Conteúdo da questão 1 da parte discursiva da formação geral. (valor de 0 a 100).,Decimal,6.2,,,n,n,n,n,s,s,s,s,s,s,s
+59,NT_FG_D2 ,Nota da questão 2 da parte discursiva na formação geral - Média ponderada da parte de Língua Portuguesa (20%) e Conteúdo (80%) da Questão 2 da parte discursiva. (valor de 0 a 100).,Decimal,6.2,,,s,s,s,s,s,s,s,s,s,s,s
+60,NT_FG_D2_PT ,Nota de Língua Portuguesa da questão 2 da parte discursiva da formação geral. (valor de 0 a 100).,Decimal,6.2,,,n,n,n,n,s,s,s,s,s,s,s
+61,NT_FG_D2_CT ,Nota de Conteúdo da questão 2 da parte discursiva da formação geral. (valor de 0 a 100).,Decimal,6.2,,,n,n,n,n,s,s,s,s,s,s,s
+62,NT_CE ,Nota bruta no componente específico - Média ponderada da parte objetiva (85%) e discursiva (15%) no componente específico. (valor de 0 a 100).,Decimal,3.10,,,s,s,s,s,s,s,s,s,s,s,s
+63,NT_OBJ_CE ,Nota bruta na parte objetiva do componente específico. (valor de 0 a 100).,Decimal,3.10,,,s,s,s,s,s,s,s,s,s,s,s
+64,NT_DIS_CE ,Nota bruta na parte discursiva do componente específico. (valor de 0 a 100).,Decimal,3.10,,,s,s,s,s,s,s,s,s,s,s,s
+65,NT_CE_D1 ,Nota da questão 1 da parte discursiva do componente específico. (valor de 0 a 100).,Decimal,6.2,,,s,s,s,s,s,s,s,s,s,s,s
+66,NT_CE_D2 ,Nota da questão 2 da parte discursiva do componente específico. (valor de 0 a 100).,Decimal,6.2,,,s,s,s,s,s,s,s,s,s,s,s
+67,NT_CE_D3 ,Nota da questão 3 da parte discursiva do componente específico. (valor de 0 a 100).,Decimal,6.2,,,s,s,s,s,s,s,s,s,s,s,s
+QUESTIONÁRIOS,,,,,,,,,,,,,,,,,
+PARTE 9 - QUESTIONÁRIO DO ESTUDANTE,,,,,,,,,,,,,,,,,
+68,Q1,Qual o seu estado civil?,Char,1,"* = SEM INFORMACAO
+A = Solteiro(a)
+B = Casado(a)
+C = Separado(a) judicialmente/divorciado(a)
+D = Viúvo(a)
+E = Outro.",,s,s,s,s,s,s,s,s,s,s,s
+69,Q2,Qual é a sua cor ou raça?,Char,1,"* = SEM INFORMACAO
+A = Branca
+B = Preta
+C = Amarela
+D = Parda
+E = Indígena
+F = Não quero declarar",,s,s,s,s,s,s,s,s,s,s,s
+70,Q3,Qual a sua nacionalidade?,Char,1,"* = SEM INFORMACAO
+A = Brasileira
+B = Brasileira naturalizada
+C = Estrangeira",,n,n,n,n,s,s,s,s,s,s,s
+71,Q4,Até que etapa de escolarização seu pai concluiu?,Char,1,"* = SEM INFORMACAO
+A = Nenhuma
+B = Ensino Fundamental: 1º ao 5º ano (1ª a 4ª série)
+C = Ensino Fundamental: 6º ao 9º ano (5ª a 8ª série)
+D = Ensino Médio
+E = Ensino Superior - Graduação.
+F = Pós-graduação.",,s,s,s,s,s,s,s,s,s,s,s
+72,Q5,Até que etapa de escolarização sua mãe concluiu?,Char,1,"* = SEM INFORMACAO
+A = Nenhuma
+B = Ensino Fundamental: 1º ao 5º ano (1ª a 4ª série)
+C = Ensino Fundamental: 6º ao 9º ano (5ª a 8ª série)
+D = Ensino Médio
+E = Ensino Superior - Graduação.
+F = Pós-graduação.",,s,s,s,s,s,s,s,s,s,s,s
+73,Q6,Onde e com quem você mora atualmente?,Char,1,"* = SEM INFORMACAO
+A = Em casa ou apartamento, sozinho.
+B = Em casa ou apartamento, com pais e/ou parentes.
+C = Em casa ou apartamento, com cônjuge e/ou filhos.
+D = Em casa ou apartamento, com outras pessoas (incluindo república).
+E = Em alojamento universitário da própria instituição.
+F = Em outros tipos de habitação individual ou coletiva (hotel, hospedaria, pensão ou outro).",,s,s,s,s,s,s,s,s,s,s,s
+74,Q7,"Quantas pessoas da sua família moram com você? Considere seus pais, irmãos, cônjuge, filhos e outros parentes que moram na mesma casa com você.",Char,1,"* = SEM INFORMACAO
+A = Nenhuma.
+B = Uma.
+C = Duas.
+D = Três.
+E = Quatro.
+F = Cinco.
+G = Seis.
+H = Sete ou mais.",,n,s,s,s,n,s,s,s,s,s,s
+75,Q8,"Qual a renda total de sua família, incluindo seus rendimentos?",Char,1,"* = SEM INFORMACAO
+A = Até 1,5 salário mínimo 
+B = De 1,5 a 3 salários mínimos 
+C = De 3 a 4,5 salários mínimos 
+D = De 4,5 a 6 salários mínimos
+E = De 6 a 10 salários mínimos
+F = De 10 a 30 salários mínimos 
+G = Acima de 30 salários mínimos",,s,s,s,s,s,s,s,s,s,s,s
+76,Q9,Qual alternativa a seguir melhor descreve sua situação financeira (incluindo bolsas)?,Char,1,"* = SEM INFORMACAO
+A = Não tenho renda e meus gastos são financiados por programas governamentais.
+B = Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas.
+C = Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos.
+D = Tenho renda e não preciso de ajuda para financiar meus gastos.
+E = Tenho renda e contribuo com o sustento da família.
+F = Sou o principal responsável pelo sustento da família.",,s,s,s,s,s,s,s,s,s,s,s
+77,Q10,Qual alternativa a seguir melhor descreve sua situação de trabalho (exceto estágio ou bolsas)?,Char,1,"* = SEM INFORMACAO
+A = Não estou trabalhando.
+B = Trabalho eventualmente.
+C = Trabalho até 20 horas semanais.
+D = Trabalho de 21 a 39 horas semanais.
+E = Trabalho 40 horas semanais ou mais.",,s,s,s,s,s,s,s,s,s,s,s
+78,Q11,"Que tipo de bolsa de estudos ou financiamento do curso você recebeu para custear todas ou a maior parte das mensalidades? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",Char,1,"* = SEM INFORMACAO
+A = Nenhum, pois meu curso é gratuito.
+B = Nenhum, embora meu curso não seja gratuito.
+C = ProUni integral.
+D = ProUni parcial, apenas.
+E = FIES, apenas.
+F = ProUni Parcial e FIES.
+G = Bolsa oferecida por governo estadual, distrital ou municipal.
+H = Bolsa oferecida pela própria instituição.
+I = Bolsa oferecida por outra entidade (empresa, ONG, outra).
+J = Financiamento oferecido pela própria instituição.
+K = Financiamento bancário.",,s,s,s,s,s,s,s,s,s,s,s
+79,Q12,"Ao longo da sua trajetória acadêmica, você recebeu algum tipo de bolsa de permanência? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",Char,1,"* = SEM INFORMACAO
+A = Nenhum.
+B = Auxílio moradia.
+C = Auxílio alimentação.
+D = Auxílio moradia e alimentação.
+E = Auxílio Permanência.
+F = Outro tipo de auxílio.",,n,n,n,n,s,s,s,s,s,s,s
+80,Q13,"Ao longo da sua trajetória acadêmica, você recebeu algum tipo de bolsa acadêmica? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",Char,1,"* = SEM INFORMACAO
+A = Nenhum.
+B = Bolsa de iniciação científica.
+C = Bolsa de extensão.
+D = Bolsa de monitoria/tutoria.
+E = Bolsa PET.
+F = Outro tipo de bolsa acadêmica.",,n,n,n,n,s,s,s,s,s,s,s
+81,Q14,"Durante o curso de graduação, você participou de programas e ou atividades curriculares no exterior?",Char,1,"* = SEM INFORMACAO
+A = Não participei.
+B = Sim, Programa Ciência sem Fronteiras.
+C = Sim, programa de intercâmbio financiado pelo Governo Federal (Marca; Brafitec; PLI; outro).
+D = Sim, programa de intercâmbio financiado pelo Governo Estadual.
+E = Sim, programa de intercâmbio da minha instituição.
+F = Sim, outro intercâmbio não institucional.",,n,n,n,n,s,s,s,s,s,s,s
+82,Q15,Seu ingresso no curso de graduação se deu por meio de políticas de ação afirmativa ou inclusão social?,Char,1,"* = SEM INFORMACAO
+A = Não.
+B = Sim, por critério étnico-racial.
+C = Sim, por critério de renda.
+D = Sim, por ter estudado em escola pública ou particular com bolsa de estudos.
+E = Sim, por sistema que combina dois ou mais critérios anteriores.
+F = Sim, por sistema diferente dos anteriores.",,n,n,n,n,s,s,s,s,s,s,s
+83,Q16,Em que unidade da Federação você concluiu o ensino médio?,Char,1,"11 = Rondônia (RO)
+12 = Acre (AC)
+13 = Amazonas (AM)
+14 = Roraima (RR)
+15 = Pará (PA)
+16 = Amapa (AP)
+17 = Tocantins (TO)
+21 = Maranhão (MA)
+22= Piauí (PI)
+23 = Ceará (CE)
+24 = Rio Grande do Norte (RN)
+25 = Paraíba (PB)
+26 = Pernambuco (PE)
+27 = Alagoas (AL)
+28 = Sergipe (SE)
+29 = Bahia (BA)
+31 = Minas gerais (MG)
+32 = Espírito Santo (ES)
+33 = Rio de Janeiro (RJ)
+35 = São Paulo (SP)
+41 = Paraná (PR)
+42 = Santa Catarina (SC)
+43 = Rio Grande do Sul (RS)
+50 = Mato Grosso do Sul (MS)
+51 = Mato Grosso (MT)
+52 = Goiás (GO)
+53 = Distrito federal (DF)
+97 - * = SEM INFORMACAO
+98 - EX = EXTERIOR
+99 - Não se aplica",,s,s,s,s,s,s,s,s,s,s,s
+84,Q17,Em que tipo de escola você cursou o ensino médio?,Char,1,"* = SEM INFORMACAO
+A = Todo em escola pública.
+B = Todo em escola privada (particular).
+C = Todo no exterior.
+D = A maior parte em escola pública.
+E = A maior parte em escola privada (particular).
+F = Parte no Brasil e parte no exterior.
+G = Metade em escola pública e metade em escola privada (particular)",,s,s,s,s,s,s,s,s,s,s,s
+85,Q18,Qual modalidade de ensino médio você concluiu?,Char,1,"* = SEM INFORMACAO
+A = Ensino médio tradicional.
+B = Profissionalizante técnico (eletrônica, contabilidade, agrícola, outro).
+C = Profissionalizante magistério (Curso Normal).
+D = Educação de Jovens e Adultos (EJA) e/ou Supletivo.
+E = Outro modalidade.",,s,s,s,s,s,s,s,s,s,s,s
+86,Q19,Quem mais lhe incentivou a cursar a graduação?,Char,1,"* = SEM INFORMACAO
+A = Ninguém.
+B = Pais.
+C = Outros membros da família que não os pais.
+D = Professores.
+E = Líder ou representante religioso.
+F = Colegas/Amigos.
+G = Outras pessoas.",,n,n,n,n,s,s,s,s,s,s,s
+87,Q20,Algum dos grupos abaixo foi determinante para você enfrentar dificuldades durante seu curso superior e conclui-lo?,Char,1,"* = SEM INFORMACAO
+A = Não tive dificuldade.
+B = Não recebi apoio para enfrentar dificuldades.
+C = Pais.
+D = Avós.
+E = Irmãos, primos ou tios.
+F = Líder ou representante religioso.
+G = Colegas de curso ou amigos.
+H = Professores do curso.
+I = Profissionais do serviço de apoio ao estudante da IES.
+J = Colegas de trabalho.
+K = Outro grupo.",,n,n,n,n,s,s,s,s,s,s,s
+88,Q21,Alguém em sua família concluiu um curso superior?,Char,1,"* = SEM INFORMACAO
+A = Sim.
+B = Não.",,n,n,n,n,s,s,s,s,s,s,s
+89,Q22,"Excetuando-se os livros indicados na bibliografia do seu curso, quantos livros você leu neste ano?",Char,1,"* = SEM INFORMACAO
+A = Nenhum.
+B = Um ou dois.
+C = De três a cinco.
+D = De seis a oito.
+E = Mais de oito.",,s,s,s,s,s,s,s,s,s,s,s
+90,Q23,"Quantas horas por semana, aproximadamente, você dedicou aos estudos, excetuando as horas de aula?",Char,1,"* = SEM INFORMACAO
+A = Nenhuma, apenas assisto às aulas.
+B = De uma a três.
+C = De quatro a sete.
+D = De oito a doze.
+E = Mais de doze.",,s,s,s,s,s,s,s,s,s,s,s
+91,Q24,Você teve oportunidade de aprendizado de idioma estrangeiro na Instituição?,Char,1,"* = SEM INFORMACAO
+A = Sim, somente na modalidade presencial.
+B = Sim, somente na modalidade semipresencial.
+C = Sim, parte na modalidade presencial e parte na modalidade semipresencial.
+D = Sim, na modalidade a distância.
+E = Não.",,n,n,n,n,s,s,s,s,s,s,s
+92,Q25,Qual o principal motivo para você ter escolhido este curso?,Char,1,"* = SEM INFORMACAO
+A = Inserção no mercado de trabalho.
+B = Influência familiar.
+C = Valorização profissional.
+D = Prestígio Social.
+E = Vocação.
+F = Oferecido na modalidade a distância.
+G = Baixa concorrência para ingresso.
+H = Outro motivo.",,n,n,n,n,s,s,s,s,s,s,s
+93,Q26,Qual a principal razão para você ter escolhido a sua instituição de educação superior?,Char,1,"* = SEM INFORMACAO
+A = Gratuidade.
+B = Preço da mensalidade.
+C = Proximidade da minha residência.
+D = Proximidade do meu trabalho.
+E = Facilidade de acesso.
+F = Qualidade/reputação.
+G = Foi a única onde tive aprovação.
+H = Possibilidade de ter bolsa de estudo.
+I = Outro motivo.",,n,n,n,n,s,s,s,s,s,s,s
+94,Q27,"As disciplinas cursadas contribuíram para sua formação integral, como cidadão e profissional.",Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+95,Q28,Os conteúdos abordados nas disciplinas do curso favoreceram sua atuação em estágios ou em atividades de iniciação profissional.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+96,Q29,As metodologias de ensino utilizadas no curso desafiaram você a aprofundar conhecimentos e desenvolver competências reflexivas e críticas.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+97,Q30,O curso propiciou experiências de aprendizagem inovadoras.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+98,Q31,O curso contribuiu para o desenvolvimento da sua consciência ética para o exercício profissional.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+99,Q32,No curso você teve oportunidade de aprender a trabalhar em equipe.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+100,Q33,O curso possibilitou aumentar sua capacidade de reflexão e argumentação.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+101,Q34,"O curso promoveu o desenvolvimento da sua capacidade de pensar criticamente, analisar e refletir sobre soluções para problemas da sociedade.",Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+102,Q35,O curso contribuiu para você ampliar sua capacidade de comunicação nas formas oral e escrita.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+103,Q36,O curso contribuiu para o desenvolvimento da sua capacidade de aprender e atualizar-se permanentemente.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+104,Q37,As relações professor-aluno ao longo do curso estimularam você a estudar e aprender.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+105,Q38,Os planos de ensino apresentados pelos professores contribuíram para o desenvolvimento das atividades acadêmicas e para seus estudos.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+106,Q39,As referências bibliográficas indicadas pelos professores nos planos de ensino contribuíram para seus estudos e aprendizagens.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+107,Q40,Foram oferecidas oportunidades para os estudantes superarem problemas e dificuldades relacionados ao processo de formação.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+108,Q41,A coordenação do curso esteve disponível para orientação acadêmica dos estudantes.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,n,s,s,s,s,s,s
+109,Q42,O curso exigiu de você organização e dedicação frequente aos estudos.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+110,Q43,"Foram oferecidas oportunidades para os estudantes participarem de programas, projetos ou atividades de extensão universitária.",Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+111,Q44,Foram oferecidas oportunidades para os estudantes participarem de projetos de iniciação científica e de atividades que estimularam a investigação acadêmica.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+112,Q45,O curso ofereceu condições para os estudantes participarem de eventos internos e/ou externos à instituição.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+113,Q46,A instituição ofereceu oportunidades para os estudantes atuarem como representantes em órgãos colegiados.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+114,Q47,O curso favoreceu a articulação do conhecimento teórico com atividades práticas.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+115,Q48,"As atividades práticas foram suficientes para relacionar os conteúdos do curso com a prática, contribuindo para sua formação profissional.",Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+116,Q49,O curso propiciou acesso a conhecimentos atualizados e/ou contemporâneos em sua área de formação.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+117,Q50,O estágio supervisionado proporcionou experiências diversificadas para a sua formação.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+118,Q51,As atividades realizadas durante seu trabalho de conclusão de curso contribuíram para qualificar sua formação profissional.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+119,Q52,Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios no país. ,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+120,Q53,Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios fora do país.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+121,Q54,"Os estudantes participaram de avaliações periódicas do curso (disciplinas, atuação dos professores, infraestrutura).",Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+122,Q55,As avaliações de aprendizagem realizadas durante o curso foram compatíveis com os conteúdos ou temas trabalhados pelos professores.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+123,Q56,Os professores apresentaram disponibilidade para atender os estudantes fora do horário das aulas.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,n,s,s,s,s,s,s
+124,Q57,Os professores demonstraram domínio dos conteúdos abordados nas disciplinas.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+125,Q58,"Os professores utilizaram tecnologias da informação e comunicação (TIC's) como estratégia de ensino (projetor, multimídia, laboratório de informática, ambiente virtual de aprendizagem).",Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+126,Q59,A instituição dispôs de quantidade suficiente de funcionários para o apoio administrativo e acadêmico.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+127,Q60,O curso disponibilizou monitores ou tutores para auxiliar os estudantes.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+128,Q61,As condições de infraestrutura das salas de aula foram adequadas.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+129,Q62,Os equipamentos e materiais disponíveis para as aulas práticas foram adequados para a quantidade de estudantes.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+130,Q63,Os ambientes e equipamentos destinados às aulas práticas foram adequados ao curso.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+131,Q64,A biblioteca dispôs das referências bibliográficas que os estudantes necessitaram.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+132,Q65,A instituição contou com biblioteca virtual ou conferiu acesso a obras disponíveis em acervos virtuais.,Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+133,Q66,"As atividades acadêmicas desenvolvidas dentro e fora da sala de aula possibilitaram reflexão, convivência e respeito à diversidade.",Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+134,Q67,"A instituição promoveu atividades de cultura, de lazer e interação social.",Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+135,Q68,"A instituição dispôs de refeitório, cantina e banheiros em condições adequadas que atenderam as necessidades dos seus usuários.",Char,1,"* = SEM INFORMACAO
+0 - Não sei responder / Não se Aplica.
+1 = Discordo totalmente.
+2 = Discordo.
+3 = Discordo parcialmente.
+4 = Concordo parcialmente.
+5 = Concordo.
+6 = Concordo totalmente.
+7 = Não se aplica.
+8 = Não sei responder.",,n,n,n,n,s,s,s,s,s,s,s
+"PARTE 10 - LICENCIATURAS (estas questões se aplicam somente para os anos de 2014 e 2017, demais anos inexistente)",,,,,,,,,,,,,,,,,
+136,Q69,Você pretende exercer o magistério após o término do curso?,Char,1,"* = SEM INFORMACAO
+A =  Sim, como atuação profissional principal.
+B =  Sim, mas esta não será a minha atuação profissional principal.
+C =  Não.
+D =  Ainda não decidi.",,n,n,n,n,n,s,n,n,s,n,n
+137,Q70,Qual a principal razão para você ter escolhido a Licenciatura?,Char,1,"* = SEM INFORMACAO
+A =  Acredito ser minha vocação.
+B =  Importância da profissão.
+C =  Tive professores que me inspiraram.
+D =  É uma boa carreira.
+E =  É uma opção alternativa de atividade profissional.
+F =  Não tive condições financeiras de frequentar outro curso.
+G =  Facilidade de acesso ao local do curso.
+H =  Não havia oferta de bacharelado na área.
+I =  Influência da família.
+J =  Outra razão.",,n,n,n,n,n,s,n,n,s,n,n
+138,Q71,"Você já tem experiência profissional no magistério, qual a forma de contrato? Assinale a alternativa mais relevante para você.",Char,1,"* = SEM INFORMACAO
+A =  Sim, em escola pública, como concursado.
+B =  Sim, em escola pública, com contrato temporário (não concursado).
+C =  Sim, em escola privada comunitária como contratado.
+D =  Sim, em escola privada confessional como contratado.
+E =  Sim, em escola privada particular como contratado.
+F =  Sim, em cursos livres (idiomas, informática, aulas particulares), como contratado.
+G =  Sim, estágio remunerado.
+H =  Sim, como voluntário.
+I =  Não tenho experiência no magistério.",,n,n,n,n,n,s,n,n,s,n,n
+139,Q72,"Se você tem experiência no magistério, em qual etapa/modalidade atuou? Assinale a alternativa mais relevante para você.",Char,1,"* = SEM INFORMACAO
+A =  Educação Infantil.
+B =  Ensino Fundamental – anos iniciais.
+C =  Ensino Fundamental – anos finais.
+D =  Ensino Médio.
+E =  Educação Profissional Técnica de Nível Médio ou Médio Integrado.
+F =  Educação de Jovens e Adultos.
+G =  Ensino Superior.
+H =  Outra modalidade de ensino (indígena, quilombola, do campo, especial, entre outras). 
+I =  Não tenho experiência no magistério.",,n,n,n,n,n,s,n,n,s,n,n
+140,Q73,Em que instituição você realizou seu estágio curricular obrigatório? Assinale a alternativa mais relevante para você.,Char,1,"* = SEM INFORMACAO
+A =  Escola pública.
+B =  Escola privada comunitária.
+C =  Escola privada confessional.
+D =  Escola privada particular.
+E =  Em outro tipo de instituição não especificado.
+F =  Não realizei o estágio curricular obrigatório.",,n,n,n,n,n,s,n,n,s,n,n
+141,Q74,Em qual turno você realizou o estágio curricular obrigatório?,Char,1,"* = SEM INFORMACAO
+A =  Matutino.
+B =  Vespertino.
+C =  Noturno.
+D =  Integral.
+E =  Não realizei estágio curricular obrigatório.",,n,n,n,n,n,s,n,n,s,n,n
+142,Q75,Em qual etapa/modalidade de ensino você realizou seu estágio curricular obrigatório? Assinale a alternativa mais relevante para você.,Char,1,"* = SEM INFORMACAO
+A =  Educação Infantil.
+B =  Ensino Fundamental – anos iniciais.
+C =  Ensino Fundamental – anos finais.
+D =  Ensino Médio.
+E =  Educação Profissional Técnica de Nível Médio ou Médio Integrado.
+F =  Educação de Jovens e Adultos.
+G =  Outra modalidade de ensino (indígena, quilombola, do campo, especial, entre outras)
+H =  Em atividades escolares de natureza complementar (atendimento especializado, atividade de apoio, atividade artísticas, atividades esportivas).
+I =  Não realizei estágio curricular obrigatório.",,n,n,n,n,n,s,n,n,s,n,n
+143,Q76,Quantas horas de estágio curricular obrigatório você integralizou?,Char,1,"* = SEM INFORMACAO
+A =  Até 100.
+B =  De 101 a 200.
+C =  De 201 a 300.
+D =  De 301 a 400.
+E =  Mais de 400.
+F =  Não realizei estágio curricular obrigatório.",,n,n,n,n,n,s,n,n,s,n,n
+144,Q77,Onde você pretende atuar daqui a cinco anos?,Char,1,"* = SEM INFORMACAO
+A =  Em escola pública, como professor.
+B =  Em escola privada, como professor.
+C =  Em escola/instituição pública, na gestão educacional.
+D =  Em escola/instituição privada, na gestão educacional.
+E =  Em outro campo de atuação profissional não vinculado à educação.",,n,n,n,n,n,s,n,n,s,n,n
+145,Q78,A fundamentação teórica oferecida no curso de Licenciatura foi suficiente para sua compreensão sobre a educação escolar e sua preparação para o exercício da docência?,Char,1,"* = SEM INFORMACAO
+A =  Sim, completamente.
+B =  Sim, em grande parte.
+C =  Apenas em algumas disciplinas/situações.
+D =  Não.",,n,n,n,n,n,s,n,n,s,n,n
+146,Q79,"Você vivenciou, durante o curso de graduação, experiências pedagógicas que gostaria de proporcionar aos seus futuros alunos?",Char,1,"* = SEM INFORMACAO
+A =  Sim, durante todo o tempo.
+B =  Sim, em grande parte do tempo.
+C =  Apenas em algumas disciplinas/situações.
+D =  Não.",,n,n,n,n,n,s,n,n,s,n,n
+147,Q80,"No decorrer do estágio curricular obrigatório, você teve suficiente orientação e supervisão de professores do seu curso?",Char,1,"* = SEM INFORMACAO
+A =  Sim, durante todo o tempo.
+B =  Sim, em grande parte do tempo.
+C =  Apenas em algumas disciplinas/situações.
+D =  Não.",,n,n,n,n,n,s,n,n,s,n,n
+148,Q81,"No decorrer do estágio curricular obrigatório, você teve adequado acompanhamento de um ou mais professores da instituição em que estagiou?",Char,1,"* = SEM INFORMACAO
+A =  Sim, durante todo o tempo.
+B =  Sim, em grande parte do tempo.
+C =  Apenas em algumas disciplinas/situações.
+D =  Não.",,n,n,n,n,n,s,n,n,s,n,n
+O conjunto de dados do SoU_Ciência foi construído a partir dos microdados do Exame Nacional de Desempenho dos Estudantes (Enade) disponibilizados pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep).,,,,,,,,,,,,,,,,,

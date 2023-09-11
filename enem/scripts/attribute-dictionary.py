@@ -58,7 +58,7 @@ TP_ESCOLA_DICTIONARY = {
 }
 
 TP_DEPENDENCIA_ADM_ESC_DICTIONARY = {
-    0 : "Dependencia administrativa nao informada",  
+    0 : "Dependencia administrativa nao informada",
     1 : "Federal",
     2 : "Estadual",
     3 : "Municipal",
