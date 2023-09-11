@@ -12,4 +12,4 @@ This project seeks to implement some analyzes on ENEM (Exame Nacional do Ensino 
 - Additional analysis can be found on `covid-analysis.ipynb`
 
 ## Paper
-- The paper can be found in [this](/enem/paper/ARTIGO_IA_KAZUHIRO_KOJIO.pdf) directory (only available in PT-BR)
+- The paper can be found in [this](/enem/paper/article.pdf) directory (only available in PT-BR)
