@@ -1,9 +1,9 @@
-/microdata/microdata-*.csv
-*/results/*.csv
-*/results/covid-analysis/*.csv
+enem/microdata/microdata-*.csv
+*/*/results/*.csv
+*/*/results/covid-analysis/*.csv
 .clj-kondo
 .idea
 .lsp
 .ipynb_checkpoints
-*/analysis_interest_data/*.csv
+*/*/analysis_interest_data/*.csv
 .DS_Store
